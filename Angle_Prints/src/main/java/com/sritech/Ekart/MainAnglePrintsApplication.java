@@ -14,9 +14,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 public class MainAnglePrintsApplication {
 
 	public static void main(String[] args) {
-		System.out.println("entred into main app");
+		System.out.println("entred into main app---start");
 		
 		SpringApplication.run(MainAnglePrintsApplication.class, args);
+		System.out.println("entred into main app---end");
 		
 	}
 
